@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.dad.rouletteboulette2.IndexController">
+    <center>
+        <VBox fx:id="box_v0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox fx:id="box_v0_h0">
+                    <children>
+                        <Button fx:id="button0" text="0"/>
+                        <GridPane fx:id="gridPaneFirst12th">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                            </rowConstraints>
+                            <children>
+                                <Button fx:id="button1" text="1" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                                <Button fx:id="button2" text="2" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                                <Button fx:id="button3" text="3" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                                <Button fx:id="button4" text="4" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                                <Button fx:id="button5" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                                <Button fx:id="button6" text="6" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                                <Button fx:id="button7" text="7" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+                                <Button fx:id="button8" text="8" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                                <Button fx:id="button9" text="9" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+                                <Button fx:id="button10" text="10" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+                                <Button fx:id="button11" text="11" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+                                <Button fx:id="button12" text="12" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+                            </children>
+                        </GridPane>
+                        <GridPane fx:id="gridPaneSecond12th">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                            </rowConstraints>
+                            <children>
+                                <Button fx:id="button13" text="13" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                                <Button fx:id="button14" text="14" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                                <Button fx:id="button15" text="15" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                                <Button fx:id="button16" text="16" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                                <Button fx:id="button17" text="17" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                                <Button fx:id="button18" text="18" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                                <Button fx:id="button19" text="19" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+                                <Button fx:id="button20" text="20" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                                <Button fx:id="button21" text="21" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+                                <Button fx:id="button22" text="22" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+                                <Button fx:id="button23" text="23" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+                                <Button fx:id="button24" text="24" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+                            </children>
+                        </GridPane>
+                        <GridPane fx:id="gridPaneThird12th">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                                <ColumnConstraints hgrow="SOMETIMES"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                                <RowConstraints vgrow="SOMETIMES"/>
+                            </rowConstraints>
+                            <children>
+                                <Button fx:id="button25" text="25" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                                <Button fx:id="button26" text="26" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                                <Button fx:id="button27" text="27" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                                <Button fx:id="button28" text="28" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                                <Button fx:id="button29" text="29" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                                <Button fx:id="button30" text="30" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                                <Button fx:id="button31" text="31" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+                                <Button fx:id="button32" text="32" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                                <Button fx:id="button33" text="33" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+                                <Button fx:id="button34" text="34" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+                                <Button fx:id="button35" text="35" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+                                <Button fx:id="button36" text="36" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+                            </children>
+                        </GridPane>
+                        <VBox fx:id="box_v0_h0_v0">
+                            <children>
+                                <Label text="column 1/ Spalte 1" fx:id="labelColumn1"/>
+                                <Label text="column 2/ Spalte 2" fx:id="labelColumn2"/>
+                                <Label text="column 3/ Spalte 3" fx:id="labelColumn3"/>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox fx:id="box_v0_h1">
+                    <children>
+                        <VBox fx:id="box_v0_h1_v0">
+                            <children>
+                                <Label text="even/ gerade" fx:id="labelEven"/>
+                                <Label text="odd/ ungerade" fx:id="labelOdd"/>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="box_v0_h1_v1">
+                            <children>
+                                <HBox fx:id="box_v0_h1_v1_h0">
+                                    <children>
+                                        <Label text="1st 12/ ersten zwölf" fx:id="labelFirstTwelve"/>
+                                        <Label text="2nd 12/ zweiten zwölf" fx:id="labelSecondTwelve"/>
+                                        <Label text="3rd 12/ dritten zwölf" fx:id="labelThirdTwelve"/>
+                                    </children>
+                                </HBox>
+                                <HBox fx:id="box_v0_h1_v1_h1">
+                                    <children>
+                                        <Label text="1-18" fx:id="labelFirstEighteen"/>
+                                        <Label text="19-36" fx:id="labelSecondEighteen"/>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="box_v0_h1_v2">
+                            <children>
+                                <Label text="red/ Rot" fx:id="labelRed"/>
+                                <Label text="black/ Schwarz" fx:id="labelBlack"/>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox fx:id="box_v0_h2">
+                    <children>
+                        <VBox fx:id="box_v0_h2_v0">
+                            <children>
+                                <Label text="00:00:00" fx:id="labelClock"/>
+                                <HBox fx:id="box_v0_h2_v0_h0">
+                                    <children>
+                                        <TextField fx:id="textFieldHours"/>
+                                        <TextField fx:id="textFieldMinutes"/>
+                                        <TextField fx:id="textFiledSeconds"/>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="box_v0_h2_v1">
+                            <children>
+                                <Button text="Start" onAction="#start" fx:id="buttonClockStart"/>
+                                <Button text="Stop" onAction="#stop" fx:id="buttonClockStop"/>
+                                <Button text="Save/ Speichern" onAction="#save" fx:id="buttonClockSave"/>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox fx:id="box_v0_h3">
+                    <children>
+                        <VBox fx:id="box_v0_h3_v0">
+                            <children>
+                                <Label text="columns/ Spalten" fx:id="labelColumns"/>
+                                <TableView fx:id="tableViewColumns">
+                                    <columns>
+                                        <TableColumn text="column 1/ Spalte 1" fx:id="tableColumnColumn1"/>
+                                        <TableColumn text="column 2/ Spalte 2" fx:id="tableColumnColumn2"/>
+                                        <TableColumn text="column 3/ Spalte 3" fx:id="tableColumnColumn3"/>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="box_v0_h3_v1">
+                            <children>
+                                <Label text="dozens/ Duzend" fx:id="labelDozens"/>
+                                <TableView fx:id="tableViewDozens">
+                                    <columns>
+                                        <TableColumn text="1st 12th/ ersten zwölf" fx:id="tableColumnFirstTwelve"/>
+                                        <TableColumn text="2nd 12th/ zweiten zwölf" fx:id="tableColumnSecondTwelve"/>
+                                        <TableColumn text="3rd 12th/ dritten zwölf" fx:id="tableColumnThirdTwelve"/>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="box_v0_h3_v2">
+                            <children>
+                                <Label text="colors/ Farben" fx:id="labelColors"/>
+                                <TableView fx:id="tableViewColors">
+                                    <columns>
+                                        <TableColumn text="red/ Rot" fx:id="tableColumnRed"/>
+                                        <TableColumn text="black/ Schwarz" fx:id="tableColumnBlack"/>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="box_v0_h3_v3">
+                            <children>
+                                <Label text="even odd/ gerade ungerade" fx:id="labelEvenOdd"/>
+                                <TableView fx:id="tableViewEvenOdd">
+                                    <columns>
+                                        <TableColumn text="even" fx:id="tableColumnEven"/>
+                                        <TableColumn text="odd" fx:id="tableColumnOdd"/>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="box_v0_h3_v4">
+                            <children>
+                                <Label text="18th/ Achtzehner" fx:id="labelEighteenth"/>
+                                <TableView fx:id="tableViewEighteenth">
+                                    <columns>
+                                        <TableColumn text="1-18" fx:id="tableColumnFirstEighteen"/>
+                                        <TableColumn text="19-36" fx:id="tableColumnSecondEighteen"/>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
